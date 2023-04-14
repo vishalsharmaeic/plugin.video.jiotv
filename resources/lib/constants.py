@@ -24,7 +24,7 @@ EPG_PATH = os.path.join(translatePath(
     ADDON.getAddonInfo("profile")), "jiotv-epg.xml.gz")
 M3U_CHANNEL = "\n#EXTINF:0 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" group-title=\"{group_title}\" tvg-chno=\"{tvg_chno}\" tvg-logo=\"{tvg_logo}\"{catchup},{channel_name}\n{play_url}"
 # EPG_SRC = "https://kodi.botallen.com/tv/epg.xml.gz"
-EPG_SRC = "https://cdn.jsdelivr.net/gh/krreet/epg/python/epg.xml.gz"
+EPG_SRC = "https://github.com/vishalsharmaeic/plugin.video.jiotv/raw/main/resources/epg.xml.gz"
 DICTIONARY_URL = "https://jiotvapi.cdn.jio.com/apis/v1.3/dictionary/dictionary?langId=6"
 
 IMG_CONFIG = {
@@ -53,10 +53,10 @@ IMG_CONFIG = {
             "tvImg":  IMG_PUBLIC + "logos/langGen/infotainment_1579517470920.jpg",
             "promoImg": IMG_PUBLIC + "logos/langGen/infotainment_1579517470920.jpg",
         },
-        # "Religious":  {
-        #     "tvImg":  IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-        #     "promoImg": IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-        # },
+        "Religious":  {
+            "tvImg":  IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
+            "promoImg": IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
+        },
         "News":  {
             "tvImg":  IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
             "promoImg": IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
@@ -65,10 +65,10 @@ IMG_CONFIG = {
             "tvImg":  IMG_PUBLIC + "logos/langGen/Music_1579245819981.jpg",
             "promoImg": IMG_PUBLIC + "logos/langGen/Music_1579245819981.jpg",
         },
-        # "Regional":  {
-        #     "tvImg":  IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-        #     "promoImg": IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-        # },
+        "Regional":  {
+            "tvImg":  IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
+            "promoImg": IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
+        },
         "Devotional":  {
             "tvImg":  IMG_PUBLIC + "logos/langGen/devotional_1579517470920.jpg",
             "promoImg": IMG_PUBLIC + "logos/langGen/devotional_1579517470920.jpg",
@@ -121,52 +121,10 @@ IMG_CONFIG = {
             "promoImg": IMG_PUBLIC+"52/8/English_1580458071796_promo.jpg",
             "image": IMG_CATCHUP_SHOWS + "cms/Friends_Carousal.jpg"
         },
-        "Malayalam":  {
-            "tvImg": IMG_PUBLIC + "logos/langGen/Malayalam_1579245819981.jpg",
-            "promoImg": IMG_PUBLIC+"67/0/Malayalam_1580459753008_promo.jpg",
-            "image": IMG_CATCHUP_SHOWS + "cms/2105281221000_s.jpg"
-        },
-        "Tamil":  {
-            "tvImg": IMG_PUBLIC + "logos/langGen/Tamil_1579245819981.jpg",
-            "promoImg": IMG_PUBLIC+"58/79/Tamil_1580458708325_promo.jpg",
-            "image": IMG_CATCHUP_SHOWS + "cms/210528429019.jpg"
-        },
         "Gujarati":  {
             "tvImg": IMG_PUBLIC + "logos/langGen/Gujarati_1579245819981.jpg",
             "promoImg": IMG_PUBLIC+"41/66/Gujarati_1580459392856_promo.jpg",
             "image": IMG_CATCHUP_SHOWS + "cms/210528196027.jpg"
-        },
-        "Odia":  {
-            "tvImg": IMG_PUBLIC + "logos/langGen/Odia_1579245819981.jpg",
-            "promoImg": IMG_PUBLIC+"67/0/Odia_1580459753008_promo.jpg",
-            "image": IMG_CATCHUP_SHOWS + "cms/210528722020.jpg"
-        },
-        "Telugu":  {
-            "tvImg": IMG_PUBLIC + "logos/langGen/Telugu_1579245819981.jpg",
-            "promoImg": IMG_PUBLIC+"89/86/Telugu_1580458096736_promo.jpg",
-            "image": IMG_CATCHUP_SHOWS + "cms/210528638024.jpg"
-        },
-        "Bhojpuri":  {
-            "tvImg": IMG_PUBLIC + "logos/langGen/Bhojpuri_1579245819981.jpg",
-            "promoImg": IMG_PUBLIC+"87/70/Bhojpuri_1580459428665_promo.jpg",
-            "image": IMG_CATCHUP_SHOWS + "cms/210528532010.jpg"
-        },
-        "Kannada":  {
-            "tvImg": IMG_PUBLIC + "logos/langGen/Kannada_1579245819981.jpg",
-            "promoImg": IMG_PUBLIC+"37/41/Kannada_1580458557594_promo.jpg",
-            "image": IMG_CATCHUP_SHOWS + "cms/2105281370026.jpg"
-        },
-        "Assamese":  {
-            # "tvImg":  IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-            # "promoImg": IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-        },
-        "Nepali":  {
-            # "tvImg":  IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-            # "promoImg": IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-        },
-        "French":  {
-            # "tvImg":  IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-            # "promoImg": IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
         }
     }
 }
