@@ -53,10 +53,6 @@ IMG_CONFIG = {
             "tvImg":  IMG_PUBLIC + "logos/langGen/infotainment_1579517470920.jpg",
             "promoImg": IMG_PUBLIC + "logos/langGen/infotainment_1579517470920.jpg",
         },
-        "Religious":  {
-            "tvImg":  IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-            "promoImg": IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-        },
         "News":  {
             "tvImg":  IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
             "promoImg": IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
@@ -95,26 +91,6 @@ IMG_CONFIG = {
             "tvImg": IMG_PUBLIC + "logos/langGen/Hindi_1579245819981.jpg",
             "promoImg": IMG_PUBLIC+"98/98/Hindi_1580458058289_promo.jpg",
             "image": IMG_CATCHUP_SHOWS + "cms/210528144026.jpg"
-        },
-        "Marathi":  {
-            "tvImg": IMG_PUBLIC + "logos/langGen/Marathi_1579245819981.jpg",
-            "promoImg": IMG_PUBLIC+"30/23/Marathi_1580458084801_promo.jpg",
-            "image": IMG_CATCHUP_SHOWS + "cms/210528755040_s.jpg"
-        },
-        "Punjabi":  {
-            "tvImg": IMG_PUBLIC + "logos/langGen/Punjabi_1579245819981.jpg",
-            "promoImg": IMG_PUBLIC+"79/58/Punjabi_1580458722849_promo.jpg",
-            "image": IMG_CATCHUP_SHOWS + "cms/2105281190010_s.jpg"
-        },
-        "Urdu":  {
-            # "tvImg":  IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-            # "promoImg": IMG_PUBLIC + "logos/langGen/news_1579517470920.jpg",
-            "image": IMG_CATCHUP_SHOWS + "cms/urdu1.jpg"
-        },
-        "Bengali":  {
-            "tvImg": IMG_PUBLIC + "logos/langGen/Bengali_1579245819981.jpg",
-            "promoImg": IMG_PUBLIC+"72/66/Bengali_1580459416363_promo.jpg",
-            "image": IMG_CATCHUP_SHOWS + "cms/2105281369026_s.jpg"
         },
         "English":  {
             "tvImg": IMG_PUBLIC + "logos/langGen/English_1579245819981.jpg",
